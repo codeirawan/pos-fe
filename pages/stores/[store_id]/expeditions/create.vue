@@ -1,0 +1,3 @@
+<template>
+  <expeditions-form />
+</template>

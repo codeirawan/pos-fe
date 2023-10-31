@@ -1,0 +1,309 @@
+{
+  "navigation": {
+    "menu": "Menu",
+    "masterData": "Master Data",
+    "transactional": "Transaction",
+    "report": "Reports",
+    "home": "Home",
+    "showcase": "Show Case",
+    "dashboard": "Dashboard",
+    "storeProfile": "Store Profile",
+    "stores": "Store",
+    "warehouses": "Warehouse",
+    "companies": "Company"
+  },
+  "shared": {
+    "columns": {
+      "id": "ID",
+      "action": "Action",
+      "name": "Name",
+      "email": "Email",
+      "username": "Username",
+      "phone": "Phone",
+      "barcode": "Barcode",
+      "code": "Code",
+      "category": "Category",
+      "subCategory": "Sub Category",
+      "description": "Description",
+      "unit": "Unit",
+      "sellPrice": "Sell Price",
+      "purchasePrice": "Purchase Price",
+      "defaultPrice": "Default Price",
+      "cost": "Cost",
+      "profit": "Profit",
+      "priceCategory": "Price Category",
+      "invoiceNumber": "Invoice Number",
+      "voucherNumber": "Voucher Number",
+      "invoicePrefix": "Invoice Prefix",
+      "taxInvoiceNumber": "Tax Invoice Number",
+      "date": "Date",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "invoiceDate": "Invoice Date",
+      "dueDate": "Due Date",
+      "reportDate": "Report Date",
+      "receiveDate": "Received Date",
+      "quantity": "Quantity",
+      "receivedQuantity": "Received Qty",
+      "returnQuantity": "Return Qty",
+      "outstandingQuantity": "Outstanding Qty",
+      "stockName": "Stock Name",
+      "newStock": "New Stock",
+      "stockBefore": "Stock Before",
+      "stockAfter": "Stock After",
+      "store": "Store",
+      "stock": "Stock",
+      "stockAlert": "Stock Alert",
+      "currentStock": "Current Stock",
+      "supplier": "Supplier",
+      "customer": "Customer",
+      "item": "Item",
+      "totalItem": "Total Item",
+      "basePrice": "Base Price",
+      "itemGroup": "Item Group",
+      "amount": "Amount",
+      "invoiceAmount": "Invoice Amount",
+      "serviceAmount": "Service Amount",
+      "warehouse": "Warehouse",
+      "warehouseFrom": "Warehouse From",
+      "warehouseTo": "Warehouse To",
+      "password": "Password",
+      "repeatPassword": "Repeat Password",
+      "paidAmount": "Paid Amount",
+      "returnedAmount": "Returned Amount",
+      "outstandingAmount": "Unpaid Amount",
+      "required": "Required",
+      "price": "Price",
+      "finalPrice": "Final Price",
+      "status": "Status",
+      "account": "Account",
+      "paymentAccount": "Payment Account",
+      "accountNumber": "Account Number",
+      "accountType": "Account Type",
+      "createdAt": "Created At",
+      "createdBy": "Created By",
+      "editedAt": "Edited At",
+      "editedBy": "Edited By",
+      "deletedAt": "Deleted At",
+      "deletedBy": "Deleted By",
+      "expedition": "Expedition",
+      "shippingPrice": "Shipping Price",
+      "discountAmount": "Discount Amount",
+      "discountPercentage": "Discount Percentage",
+      "discountValue": "Discount Value",
+      "discountedSellPrice": "Discounted Sell Price",
+      "paymentStatus": "Payment Status",
+      "deliveryStatus": "Delivery Status",
+      "limitOutstandingAmount": "Limit Outstanding Amount",
+      "whatsapp": "Whatsapp",
+      "otp": "OTP",
+      "tax": "Tax",
+      "saleLowerPricePermission": "Lower Price Permission",
+      "whatsappNumber": "Lower Price Whatsapp Number",
+      "isWhatsappGroup": "Is Whatsapp Group",
+      "role": "Role",
+      "permission": "Permission",
+      "year": "Year",
+      "canceled": "Canceled",
+      "ordered": "Ordered",
+      "pic": "PIC",
+      "entry": "Entry",
+      "address": "Address",
+      "policeNumber": "Police Number"
+    },
+    "buttons": {
+      "create": "Create",
+      "payment": "Payment",
+      "submit": "Submit",
+      "reset": "Reset",
+      "cancel": "Cancel",
+      "show": "Show",
+      "delete": "Delete",
+      "add": "Add",
+      "edit": "Edit",
+      "confirm": "Confirm",
+      "close": "Close",
+      "yes": "Yes",
+      "no": "No",
+      "login": "Login",
+      "receive": "Receive",
+      "send": "Send",
+      "transfer": "Transfer",
+      "adjustments": "Adjustment",
+      "return": "Return",
+      "history": "History",
+      "notify": "Send Notification"
+    },
+    "inputs": {
+      "search": "Search"
+    },
+    "labels": {
+      "confirmDelete": "Apakah Anda yakin menghapus data ini?",
+      "confirmCancel": "Apakah Anda yakin membatalkan data ini?",
+      "noData": "Tidak ada data",
+      "noSearchResut": "Pencarian data tidak ditemukan",
+      "required": "Data wajib diisi",
+      "date": "Tanggal tidak sesuai",
+      "positiveNumber": "Angka tidak sesuai",
+      "nonNegativeNumber": "Angka tidak dapat negatif",
+      "notFound": "Tidak ada data ditemukan",
+      "success": "Berhasil",
+      "failed": "Gagal",
+      "subTotalPrice": "Sub Total Price",
+      "totalPrice": "Total Harga",
+      "totalReturnAmount": "Total Return Amount",
+      "afterTax": "Setelah Pajak",
+      "tax": "Pajak",
+      "settled": "Lunas",
+      "paid": "Dibayar",
+      "outstanding": "Hutang",
+      "downPayment": "DP",
+      "addPayment": "Tambah Pembayaran",
+      "addExpedition": "Tambah Ekspedisi",
+      "paymentMethod": "Pembayaran",
+      "list": "List",
+      "maxValue": "Maximum ",
+      "minValue": "Minimum ",
+      "maxDiscount": "Maximum 99%",
+      "qtyReceivingMaxValue": "Qty Diterima melebihi qty barang",
+      "qtyEmpty": "Qty masih kosong",
+      "exceedStock": "Melebihi permintaan stok barang",
+      "totalSales": "Total Sales",
+      "totalDefaultPrice": "Total Default Price",
+      "totalFinalSellPrice": "Total Final Sell Price",
+      "barcodeDefaultSameAsCode": "Empty barcode will be set as code",
+      "new": "New",
+      "includeTax": "Include Tax",
+      "oneItemPriceCheaper": "One of the item’s price is cheaper than min. price",
+      "request": "Request",
+      "verify": "Verify",
+      "resend": "Resend",
+      "timeRemaining": "Time Remaining",
+      "sendAll": "Send All"
+    },
+    "notifications": {
+      "loginSuccess": "Login success",
+      "logoutSuccess": "Logout success",
+      "deleted": "Data deleted",
+      "storeChanged": "Store changed",
+      "warehouseChanged": "Warehouse changed",
+      "finalSellPriceUpdated": "Final sell price updated",
+      "unauthorized": "Access unauthorized",
+      "repeatPasswordShouldBeSame": "Repeat password should be same as password"
+    }
+  },
+  "modules": {
+    "items": {
+      "title": "Items",
+      "basePrice": "Item Base Prices"
+    },
+    "itemUnits": {
+      "title": "Item Units"
+    },
+    "itemDeliveries": {
+      "title": "Item Deliveries"
+    },
+    "categories": {
+      "title": "Categories"
+    },
+    "subCategories": {
+      "title": "Sub Categories"
+    },
+    "warehouses": {
+      "title": "Warehouses"
+    },
+    "suppliers": {
+      "title": "Suppliers"
+    },
+    "purchases": {
+      "title": "Purchases"
+    },
+    "purchasesList": {
+      "title": "Purchase List"
+    },
+    "customers": {
+      "title": "Customers"
+    },
+    "sales": {
+      "title": "Sales"
+    },
+    "salesList": {
+      "title": "Sales List"
+    },
+    "purchaseReturns": {
+      "title": "Purchase Returns"
+    },
+    "saleReturns": {
+      "title": "Sale Returns"
+    },
+    "stores": {
+      "title": "Stores"
+    },
+    "units": {
+      "title": "Units"
+    },
+    "priceCategories": {
+      "title": "Price Categories"
+    },
+    "accountTypes": {
+      "title": "Account Types"
+    },
+    "accounts": {
+      "title": "Accounts"
+    },
+    "expeditions": {
+      "title": "Expeditions"
+    },
+    "serviceTypes": {
+      "title": "Service Types"
+    },
+    "warehouseReceivings": {
+      "title": "Warehouse Receivings"
+    },
+    "adminReceivings": {
+      "title": "Admin Receivings"
+    },
+    "warehouseStockTransfers": {
+      "title": "Warehouse Stock Transfers"
+    },
+    "stockAdjustments": {
+      "title": "Stock Adjustments"
+    },
+    "users": {
+      "title": "Users"
+    },
+    "userRoles": {
+      "title": "User Roles"
+    },
+    "roles": {
+      "title": "Roles"
+    },
+    "rolePermissions": {
+      "title": "Role Permissions"
+    },
+    "salesReport": {
+      "title": "Sales Report"
+    },
+    "stockAlert": {
+      "title": "Stock Alert"
+    },
+    "outstandingSales": {
+      "title": "Outstanding Sales"
+    },
+    "purchaseReport": {
+      "title": "Purchase Report"
+    },
+    "outstandingPurchases": {
+      "title": "Outstanding Purchases"
+    },
+    "cashBanking": {
+      "title": "Cash and Banking"
+    },
+    "deposits": {
+      "title": "Deposits"
+    },
+    "expenses": {
+      "title": "Expenses"
+    }
+  }
+}

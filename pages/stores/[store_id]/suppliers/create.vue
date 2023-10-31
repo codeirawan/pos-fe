@@ -1,0 +1,3 @@
+<template>
+  <suppliers-form />
+</template>

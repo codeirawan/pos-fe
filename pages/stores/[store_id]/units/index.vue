@@ -1,0 +1,3 @@
+<template>
+  <units-table />
+</template>

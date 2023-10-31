@@ -1,0 +1,3 @@
+<template>
+  <customers-form />
+</template>

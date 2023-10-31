@@ -1,0 +1,3 @@
+<template>
+  <categories-table />
+</template>

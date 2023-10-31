@@ -1,0 +1,3 @@
+<template>
+  <stores-profile />
+</template>

@@ -1,0 +1,3 @@
+<template>
+  <warehouses-form />
+</template>

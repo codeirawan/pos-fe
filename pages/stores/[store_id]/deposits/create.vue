@@ -1,0 +1,3 @@
+<template>
+  <deposits-form />
+</template>

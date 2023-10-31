@@ -1,0 +1,3 @@
+<template>
+  <roles-detail />
+</template>

@@ -1,0 +1,3 @@
+<template>
+  <expenses-table />
+</template>

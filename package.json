@@ -1,0 +1,50 @@
+{
+  "version": "1.0.0",
+  "private": true,
+  "npmVersion": "18.15.0",
+  "packageManager": "pnpm@8.3.1",
+  "scripts": {
+    "build": "nuxi build",
+    "dev": "nuxi dev --port=1996",
+    "dev:pwa": "VITE_PLUGIN_PWA=true nuxi dev",
+    "start": "eval $(grep '^NUXT_HOST' .env) $(grep '^NUXT_PORT' .env) node .output/server/index.mjs",
+    "start-new": "nuxt start",
+    "typecheck": "vue-tsc --noEmit",
+    "lint": "eslint .",
+    "postinstall": "nuxi prepare",
+    "generate": "nuxi generate",
+    "start:generate": "npx serve .output/public"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-barcode": "^2.0.2",
+    "@quasar/extras": "^1.16.2",
+    "dexie": "^3.2.4",
+    "jspdf-autotable": "^3.5.31",
+    "quasar": "^2.11.10",
+    "vue-currency-input": "^3.0.5",
+    "vue-tsc": "^1.2.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.38.4",
+    "@iconify-json/carbon": "^1.1.16",
+    "@iconify-json/twemoji": "^1.1.11",
+    "@nuxt/devtools": "^0.4.0",
+    "@nuxtjs/color-mode": "^3.2.0",
+    "@nuxtjs/i18n": "8.0.0-beta.11",
+    "@pinia/nuxt": "^0.4.8",
+    "@sidebase/nuxt-auth": "0.6.0-beta.2",
+    "@sidebase/nuxt-pdf": "^0.1.1",
+    "@unocss/eslint-config": "^0.51.4",
+    "@unocss/nuxt": "^0.51.4",
+    "@vite-pwa/nuxt": "^0.0.7",
+    "@vueuse/nuxt": "^9.13.0",
+    "consola": "^3.0.1",
+    "eslint": "^8.38.0",
+    "nuxt": "^3.4.1",
+    "nuxt-quasar-ui": "^1.6.1",
+    "pinia": "^2.0.34",
+    "sass": "^1.62.0",
+    "sass-loader": "^13.2.2",
+    "typescript": "^5.1.6"
+  }
+}

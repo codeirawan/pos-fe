@@ -1,0 +1,3 @@
+<template>
+  <stores-form />
+</template>

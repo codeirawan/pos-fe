@@ -1,0 +1,309 @@
+{
+  "navigation": {
+    "menu": "Menu",
+    "masterData": "Data Master",
+    "transactional": "Transaksi",
+    "report": "Laporan",
+    "home": "Beranda",
+    "showcase": "Show Case",
+    "dashboard": "Dashboard",
+    "storeProfile": "Profil Toko",
+    "stores": "Toko",
+    "warehouses": "Gudang",
+    "companies": "Perusahaan"
+  },
+  "shared": {
+    "columns": {
+      "id": "ID",
+      "action": "Aksi",
+      "name": "Nama",
+      "email": "Email",
+      "username": "Username",
+      "phone": "No. HP",
+      "barcode": "Barcode",
+      "code": "Kode",
+      "category": "Kategori",
+      "subCategory": "Sub Kategori",
+      "description": "Deskripsi",
+      "unit": "Satuan",
+      "sellPrice": "Harga Jual",
+      "finalSellPrice": "Harga Jual Akhir",
+      "purchasePrice": "Harga Beli",
+      "defaultPrice": "Harga Minimal",
+      "cost": "Ongkos",
+      "profit": "Keuntungan",
+      "priceCategory": "Kat. Harga",
+      "invoiceNumber": "No. Invoice",
+      "voucherNumber": "No. Voucher",
+      "invoicePrefix": "Kode Awalan Invoice",
+      "taxInvoiceNumber": "No. Faktur Pajak",
+      "date": "Tanggal",
+      "startDate": "Dari Tanggal",
+      "endDate": "Ke Tanggal",
+      "invoiceDate": "Tanggal Faktur",
+      "dueDate": "Tanggal Jatuh Tempo",
+      "reportDate": "Tanggal Masa",
+      "receiveDate": "Tanggal Terima",
+      "quantity": "Kuantitas",
+      "receivedQuantity": "Qty Diterima",
+      "returnQuantity": "Qty Retur",
+      "outstandingQuantity": "Qty Kurang",
+      "stockName": "Nama Stok",
+      "newStock": "Stock Baru",
+      "stockBefore": "Stock Sebelum",
+      "stockAfter": "Stock Sesudah",
+      "store": "Toko",
+      "stock": "Stok",
+      "stockAlert": "Pemberitahuan Stok",
+      "currentStock": "Stok",
+      "supplier": "Pemasok",
+      "customer": "Pelanggan",
+      "item": "Barang",
+      "totalItem": "Jumlah Barang",
+      "basePrice": "Harga Dasar",
+      "itemGroup": "Grup Barang",
+      "amount": "Nilai",
+      "invoiceAmount": "Nilai Faktur",
+      "serviceAmount": "Nilai Jasa",
+      "warehouse": "Gudang",
+      "warehouseFrom": "Gudang Asal",
+      "warehouseTo": "Gudang Tujuan",
+      "password": "Kata Sandi",
+      "repeatPassword": "Ulangi Kata Sandi",
+      "paidAmount": "Nilai Terbayar",
+      "returnedAmount": "Nilai Retur",
+      "outstandingAmount": "Nilai Belum Terbayar",
+      "required": "Wajib Isi",
+      "price": "Harga",
+      "status": "Status",
+      "account": "Akun",
+      "paymentAccount": "Akun Pembayaran",
+      "accountNumber": "No. Rekening",
+      "accountType": "Jenis Akun",
+      "createdAt": "Dibuat Pada",
+      "createdBy": "Dibuat Oleh",
+      "editedAt": "Diubah Pada",
+      "editedBy": "Diubah Oleh",
+      "deletedAt": "Dihapus Pada",
+      "deletedBy": "Dihapus Oleh",
+      "expedition": "Ekspedisi",
+      "shippingPrice": "Ongkos Kirim",
+      "discountAmount": "Nilai Diskon",
+      "discountPercentage": "Diskon (%)",
+      "discountValue": "Nilai Diskon",
+      "discountedSellPrice": "Harga Jual Setelah Diskon",
+      "paymentStatus": "Status Pembayaran",
+      "deliveryStatus": "Status Pengiriman",
+      "limitOutstandingAmount": "Batas hutang",
+      "whatsapp": "Whatsapp",
+      "otp": "OTP",
+      "tax": "Pajak",
+      "saleLowerPricePermission": "Harga lebih rendah",
+      "whatsappNumber": "No. Whatsapp",
+      "isWhatsappGroup": "Nomor Merupakan Grup WA",
+      "role": "Role",
+      "permission": "Hak Akses",
+      "year": "Tahun",
+      "canceled": "Dibatalkan",
+      "ordered": "Dipesan",
+      "pic": "PIC",
+      "entry": "Entri",
+      "address": "Alamat",
+      "policeNumber": "Nomor Polisi"
+    },
+    "buttons": {
+      "create": "Tambah",
+      "payment": "Pembayaran",
+      "submit": "Simpan",
+      "reset": "Atur Ulang",
+      "cancel": "Batal",
+      "show": "Lihat",
+      "delete": "Hapus",
+      "add": "Tambah",
+      "edit": "Ubah",
+      "confirm": "Konfirmasi",
+      "close": "Tutup",
+      "yes": "Ya",
+      "no": "Tidak",
+      "login": "Masuk",
+      "receive": "Terima Barang",
+      "send": "Kirim",
+      "transfer": "Mutasi",
+      "adjustments": "Ubah",
+      "return": "Retur",
+      "history": "Riwayat",
+      "notify": "Kirim Pemberitahuan"
+    },
+    "inputs": {
+      "search": "Cari"
+    },
+    "labels": {
+      "confirmDelete": "Apakah Anda yakin menghapus data ini?",
+      "confirmCancel": "Apakah Anda yakin membatalkan data ini?",
+      "noData": "Tidak ada data",
+      "noSearchResut": "Pencarian data tidak ditemukan",
+      "required": "Data wajib diisi",
+      "date": "Tanggal tidak sesuai",
+      "positiveNumber": "Angka tidak sesuai",
+      "nonNegativeNumber": "Angka tidak dapat negatif",
+      "notFound": "Tidak ada data ditemukan",
+      "success": "Berhasil",
+      "failed": "Gagal",
+      "subTotalPrice": "Sub Total Harga",
+      "totalPrice": "Total Harga",
+      "totalReturnAmount": "Total Retur",
+      "afterTax": "Setelah Pajak",
+      "tax": "Pajak",
+      "settled": "Lunas",
+      "paid": "Dibayar",
+      "outstanding": "Hutang",
+      "downPayment": "DP",
+      "addPayment": "Tambah Pembayaran",
+      "addExpedition": "Tambah Ekspedisi",
+      "paymentMethod": "Pembayaran",
+      "list": "Daftar",
+      "maxValue": "Maksimal ",
+      "minValue": "Minimal ",
+      "maxDiscount": "Maximal 99%",
+      "qtyReceivingMaxValue": "Qty Diterima melebihi qty barang",
+      "qtyEmpty": "Qty masih kosong",
+      "exceedStock": "Melebihi permintaan stok barang",
+      "totalSales": "Total Penjualan",
+      "totalDefaultPrice": "Total Harga Minimal",
+      "totalFinalSellPrice": "Total Harga Jual Akhir",
+      "barcodeDefaultSameAsCode": "Jika barcode kosong akan disamakan dengan kode",
+      "new": "Baru",
+      "includeTax": "Termasuk Pajak",
+      "oneItemPriceCheaper": "Salah satu harga barangnya lebih murah dari min. harga",
+      "request": "Meminta",
+      "verify": "Memeriksa",
+      "resend": "Kirim Ulang",
+      "timeRemaining": "Waktu yang tersisa",
+      "sendAll": "Kirim Semua"
+    },
+    "notifications": {
+      "loginSuccess": "Berhasil login",
+      "logoutSuccess": "Berhasil keluar dari sistem",
+      "deleted": "Data berhasil dihapus",
+      "storeChanged": "Berhasil mengubah toko",
+      "warehouseChanged": "Berhasil mengubah gudang",
+      "finalSellPriceUpdated": "Berhasil mengubah Harga Jual Akhir",
+      "unauthorized": "Tidak dapat mengakses halaman ini",
+      "repeatPasswordShouldBeSame": "Input ulangi kata sandi harus sama dengan kata sandi"
+    }
+  },
+  "modules": {
+    "items": {
+      "title": "Barang",
+      "basePrice": "Harga Dasar Barang"
+    },
+    "itemUnits": {
+      "title": "Satuan Barang"
+    },
+    "itemDeliveries": {
+      "title": "Pengiriman Barang"
+    },
+    "categories": {
+      "title": "Kategori"
+    },
+    "subCategories": {
+      "title": "Sub Kategori"
+    },
+    "warehouses": {
+      "title": "Gudang"
+    },
+    "suppliers": {
+      "title": "Pemasok"
+    },
+    "purchases": {
+      "title": "Pembelian"
+    },
+    "purchasesList": {
+      "title": "Daftar Pembelian"
+    },
+    "customers": {
+      "title": "Pelanggan"
+    },
+    "sales": {
+      "title": "Penjualan"
+    },
+    "salesList": {
+      "title": "Daftar Penjualan"
+    },
+    "purchaseReturns": {
+      "title": "Retur Pembelian"
+    },
+    "saleReturns": {
+      "title": "Retur Penjualan"
+    },
+    "stores": {
+      "title": "Toko"
+    },
+    "units": {
+      "title": "Satuan"
+    },
+    "priceCategories": {
+      "title": "Kategori Harga"
+    },
+    "accountTypes": {
+      "title": "Tipe Akun"
+    },
+    "accounts": {
+      "title": "Akun"
+    },
+    "expeditions": {
+      "title": "Ekspedisi"
+    },
+    "serviceTypes": {
+      "title": "Tipe Jasa"
+    },
+    "warehouseReceivings": {
+      "title": "Penerimaan Barang Gudang"
+    },
+    "adminReceivings": {
+      "title": "Penerimaan Barang Admin"
+    },
+    "warehouseStockTransfers": {
+      "title": "Mutasi Stok Gudang"
+    },
+    "stockAdjustments": {
+      "title": "Ubah Stok"
+    },
+    "users": {
+      "title": "Pengguna"
+    },
+    "userRoles": {
+      "title": "Role Pengguna"
+    },
+    "roles": {
+      "title": "Role"
+    },
+    "rolePermissions": {
+      "title": "Role Permissions"
+    },
+    "salesReport": {
+      "title": "Laporan Penjualan"
+    },
+    "stockAlert": {
+      "title": "Peringatan Stok"
+    },
+    "outstandingSales": {
+      "title": "Penjualan Belum Lunas"
+    },
+    "purchaseReport": {
+      "title": "Laporan Pembelian"
+    },
+    "outstandingPurchases": {
+      "title": "Pembelian Belum Lunas"
+    },
+    "cashBanking": {
+      "title": "Kas Bank"
+    },
+    "deposits": {
+      "title": "Penerimaan"
+    },
+    "expenses": {
+      "title": "Pembayaran"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+<template>
+  <stores-table />
+</template>

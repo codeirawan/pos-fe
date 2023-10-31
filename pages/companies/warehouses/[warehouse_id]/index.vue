@@ -1,0 +1,3 @@
+<template>
+  <warehouses-detail />
+</template>

@@ -1,0 +1,5 @@
+.q-field__native:has(> .q-field__input[req|="1"])+.q-field__label:after,
+.q-field__native[req|="1"]~.q-field__label:after {
+  content: '*';
+  color: red;
+}

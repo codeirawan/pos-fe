@@ -1,0 +1,3 @@
+<template>
+  <sales-form />
+</template>

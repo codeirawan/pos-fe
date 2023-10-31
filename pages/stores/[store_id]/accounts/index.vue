@@ -1,0 +1,3 @@
+<template>
+  <accounts-table />
+</template>

@@ -1,0 +1,3 @@
+<template>
+  <purchases-table />
+</template>

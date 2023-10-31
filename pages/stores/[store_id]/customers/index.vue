@@ -1,0 +1,3 @@
+<template>
+  <customers-table />
+</template>

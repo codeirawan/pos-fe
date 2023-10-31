@@ -1,0 +1,3 @@
+<template>
+  <expeditions-detail />
+</template>
